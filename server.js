@@ -11,6 +11,8 @@ app.get('/', function (req, res) {
 app.get('/article1',function(req,res){
    res.send('See article one here'); 
 });
+//when request is made to the path specified by the first parameter of the get function
+//it sends the resource pointing to that request
 app.get('/article2',function(req,res){
    res.send('See article two here'); 
 });
